@@ -1,6 +1,6 @@
 {
   "name": "hchokshi/silverstripe-trait-config",
-  "description": "Merge SilverStripe configuration from traits into class configuration, while avoiding private static variable conflicts.",
+  "description": "Merge SilverStripe configuration from traits into class configuration, while avoiding private static property conflicts.",
   "type": "silverstripe-vendormodule",
   "license": "MIT",
   "authors": [
