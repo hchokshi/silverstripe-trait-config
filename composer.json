@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "hchokshi\\SilverStripe\\TraitConfig": "src/"
+      "hchokshi\\SilverStripe\\TraitConfig\\": "src/"
     }
   }
 }
