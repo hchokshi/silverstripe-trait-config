@@ -202,11 +202,11 @@ class TraitConfigTransformer implements TransformerInterface
 
             if (isset($map[$dest])) {
                 // Another value was already mapped to $dest - merge current over it.
-                $map = Priority::mergeArray([
+                $mappedValues = Priority::mergeArray([
                     $dest => $value,
-                ], $map);
+                ], $mappedValues);
             } else {
-                $map[$dest] = $value;
+                $mappedValues[$dest] = $value;
             }
         }
 
